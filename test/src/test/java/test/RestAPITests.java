@@ -1,6 +1,7 @@
 package test;
 
-import org.json.simple.JSONObject;
+import java.util.HashMap;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -45,7 +46,8 @@ public class RestAPITests {
 
 		// Add the parameters to the Json object
 		//Its like has map 'Key' 'Value' pair
-		JSONObject params = new JSONObject();
+		//JSONObject params = new JSONObject();
+		HashMap<String,String> params=new HashMap<String,String>();
 		params.put("FirstName", "muttu");
 		params.put("LastName", "muttu");
 		params.put("UserName", "muttu4");
@@ -56,8 +58,8 @@ public class RestAPITests {
 		request.headers("Content-Type", "application/json");
 
 		// Add Json params to the body of the request
-		request.body(params.toJSONString());
-
+		//request.body(params.toJSONString());
+		request.body(params.toString());
 		// Post the request and check the response
 		Response response = request.post("/register");
 
