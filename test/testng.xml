@@ -3,7 +3,7 @@
 <suite name="Suite" parallel="none">
   <test name="Test">
     <classes>
-      <class name="test.RestAPITests"/>
+      <class name="test.Utility2"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
