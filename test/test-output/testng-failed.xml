@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="test.Test1">
+      <class name="test.Excel2">
         <methods>
-          <include name="displayeusers"/>
+          <include name="test33"/>
         </methods>
-      </class> <!-- test.Test1 -->
+      </class> <!-- test.Excel2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

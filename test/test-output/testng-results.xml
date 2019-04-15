@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="13" passed="13">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="255" started-at="2019-04-12T12:46:18Z" finished-at="2019-04-12T12:46:18Z">
+  <suite name="Default suite" duration-ms="263" started-at="2019-04-15T09:11:23Z" finished-at="2019-04-15T09:11:23Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="255" started-at="2019-04-12T12:46:18Z" finished-at="2019-04-12T12:46:18Z">
-      <class name="test.Test1">
-        <test-method status="PASS" signature="displayeusers(java.lang.String, java.lang.String)[pri:0, instance:test.Test1@47fd17e3]" name="displayeusers" duration-ms="14" started-at="2019-04-12T18:16:18Z" data-provider="users" finished-at="2019-04-12T18:16:18Z">
+    <test name="Default test" duration-ms="263" started-at="2019-04-15T09:11:23Z" finished-at="2019-04-15T09:11:23Z">
+      <class name="test.DataExcel">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:test.DataExcel@2eee9593]" name="login" duration-ms="17" started-at="2019-04-15T14:41:23Z" data-provider="users" finished-at="2019-04-15T14:41:23Z">
           <params>
             <param index="0">
               <value>
@@ -22,8 +22,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- displayeusers -->
-        <test-method status="PASS" signature="displayeusers(java.lang.String, java.lang.String)[pri:0, instance:test.Test1@47fd17e3]" name="displayeusers" duration-ms="2" started-at="2019-04-12T18:16:18Z" data-provider="users" finished-at="2019-04-12T18:16:18Z">
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:test.DataExcel@2eee9593]" name="login" duration-ms="1" started-at="2019-04-15T14:41:23Z" data-provider="users" finished-at="2019-04-15T14:41:23Z">
           <params>
             <param index="0">
               <value>
@@ -38,8 +38,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- displayeusers -->
-        <test-method status="PASS" signature="displayeusers(java.lang.String, java.lang.String)[pri:0, instance:test.Test1@47fd17e3]" name="displayeusers" duration-ms="1" started-at="2019-04-12T18:16:18Z" data-provider="users" finished-at="2019-04-12T18:16:18Z">
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:test.DataExcel@2eee9593]" name="login" duration-ms="1" started-at="2019-04-15T14:41:23Z" data-provider="users" finished-at="2019-04-15T14:41:23Z">
           <params>
             <param index="0">
               <value>
@@ -54,8 +54,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- displayeusers -->
-        <test-method status="PASS" signature="displayeusers(java.lang.String, java.lang.String)[pri:0, instance:test.Test1@47fd17e3]" name="displayeusers" duration-ms="0" started-at="2019-04-12T18:16:18Z" data-provider="users" finished-at="2019-04-12T18:16:18Z">
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:test.DataExcel@2eee9593]" name="login" duration-ms="1" started-at="2019-04-15T14:41:23Z" data-provider="users" finished-at="2019-04-15T14:41:23Z">
           <params>
             <param index="0">
               <value>
@@ -70,8 +70,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- displayeusers -->
-        <test-method status="PASS" signature="displayeusers(java.lang.String, java.lang.String)[pri:0, instance:test.Test1@47fd17e3]" name="displayeusers" duration-ms="1" started-at="2019-04-12T18:16:18Z" data-provider="users" finished-at="2019-04-12T18:16:18Z">
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:test.DataExcel@2eee9593]" name="login" duration-ms="1" started-at="2019-04-15T14:41:23Z" data-provider="users" finished-at="2019-04-15T14:41:23Z">
           <params>
             <param index="0">
               <value>
@@ -86,8 +86,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- displayeusers -->
-        <test-method status="PASS" signature="displayeusers(java.lang.String, java.lang.String)[pri:0, instance:test.Test1@47fd17e3]" name="displayeusers" duration-ms="1" started-at="2019-04-12T18:16:18Z" data-provider="users" finished-at="2019-04-12T18:16:18Z">
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:test.DataExcel@2eee9593]" name="login" duration-ms="3" started-at="2019-04-15T14:41:23Z" data-provider="users" finished-at="2019-04-15T14:41:23Z">
           <params>
             <param index="0">
               <value>
@@ -102,8 +102,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- displayeusers -->
-        <test-method status="PASS" signature="displayeusers(java.lang.String, java.lang.String)[pri:0, instance:test.Test1@47fd17e3]" name="displayeusers" duration-ms="2" started-at="2019-04-12T18:16:18Z" data-provider="users" finished-at="2019-04-12T18:16:18Z">
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:test.DataExcel@2eee9593]" name="login" duration-ms="2" started-at="2019-04-15T14:41:23Z" data-provider="users" finished-at="2019-04-15T14:41:23Z">
           <params>
             <param index="0">
               <value>
@@ -118,8 +118,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- displayeusers -->
-        <test-method status="PASS" signature="displayeusers(java.lang.String, java.lang.String)[pri:0, instance:test.Test1@47fd17e3]" name="displayeusers" duration-ms="1" started-at="2019-04-12T18:16:18Z" data-provider="users" finished-at="2019-04-12T18:16:18Z">
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:test.DataExcel@2eee9593]" name="login" duration-ms="2" started-at="2019-04-15T14:41:23Z" data-provider="users" finished-at="2019-04-15T14:41:23Z">
           <params>
             <param index="0">
               <value>
@@ -134,8 +134,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- displayeusers -->
-        <test-method status="PASS" signature="displayeusers(java.lang.String, java.lang.String)[pri:0, instance:test.Test1@47fd17e3]" name="displayeusers" duration-ms="1" started-at="2019-04-12T18:16:18Z" data-provider="users" finished-at="2019-04-12T18:16:18Z">
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:test.DataExcel@2eee9593]" name="login" duration-ms="1" started-at="2019-04-15T14:41:23Z" data-provider="users" finished-at="2019-04-15T14:41:23Z">
           <params>
             <param index="0">
               <value>
@@ -150,8 +150,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- displayeusers -->
-        <test-method status="PASS" signature="displayeusers(java.lang.String, java.lang.String)[pri:0, instance:test.Test1@47fd17e3]" name="displayeusers" duration-ms="3" started-at="2019-04-12T18:16:18Z" data-provider="users" finished-at="2019-04-12T18:16:18Z">
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:test.DataExcel@2eee9593]" name="login" duration-ms="2" started-at="2019-04-15T14:41:23Z" data-provider="users" finished-at="2019-04-15T14:41:23Z">
           <params>
             <param index="0">
               <value>
@@ -166,8 +166,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- displayeusers -->
-        <test-method status="PASS" signature="displayeusers(java.lang.String, java.lang.String)[pri:0, instance:test.Test1@47fd17e3]" name="displayeusers" duration-ms="1" started-at="2019-04-12T18:16:18Z" data-provider="users" finished-at="2019-04-12T18:16:18Z">
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:test.DataExcel@2eee9593]" name="login" duration-ms="1" started-at="2019-04-15T14:41:23Z" data-provider="users" finished-at="2019-04-15T14:41:23Z">
           <params>
             <param index="0">
               <value>
@@ -182,8 +182,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- displayeusers -->
-        <test-method status="PASS" signature="displayeusers(java.lang.String, java.lang.String)[pri:0, instance:test.Test1@47fd17e3]" name="displayeusers" duration-ms="0" started-at="2019-04-12T18:16:18Z" data-provider="users" finished-at="2019-04-12T18:16:18Z">
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:test.DataExcel@2eee9593]" name="login" duration-ms="0" started-at="2019-04-15T14:41:23Z" data-provider="users" finished-at="2019-04-15T14:41:23Z">
           <params>
             <param index="0">
               <value>
@@ -198,8 +198,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- displayeusers -->
-        <test-method status="PASS" signature="displayeusers(java.lang.String, java.lang.String)[pri:0, instance:test.Test1@47fd17e3]" name="displayeusers" duration-ms="1" started-at="2019-04-12T18:16:18Z" data-provider="users" finished-at="2019-04-12T18:16:18Z">
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:test.DataExcel@2eee9593]" name="login" duration-ms="2" started-at="2019-04-15T14:41:23Z" data-provider="users" finished-at="2019-04-15T14:41:23Z">
           <params>
             <param index="0">
               <value>
@@ -214,8 +214,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- displayeusers -->
-      </class> <!-- test.Test1 -->
+        </test-method> <!-- login -->
+      </class> <!-- test.DataExcel -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
